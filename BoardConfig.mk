@@ -89,7 +89,7 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 
 # TWRP specific build flags
-TW_DEVICE_VERSION := Samsung Galaxy A30
+TW_DEVICE_VERSION := Galaxy A30
 TW_THEME := portrait_hdpi
 TARGET_RECOVERY_PIXEL_FORMAT := "ABGR_8888"
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
