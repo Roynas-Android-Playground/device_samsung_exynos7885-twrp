@@ -99,7 +99,6 @@ TW_Y_OFFSET := 80
 TW_H_OFFSET := -80
 TW_INCLUDE_RESETPROP := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
-TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/kernel/config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file"
 TW_NO_REBOOT_BOOTLOADER := true
 TW_HAS_DOWNLOAD_MODE := true
 TW_INCLUDE_NTFS_3G := true
