@@ -19,6 +19,15 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd \
+    android.hardware.fastboot@1.0-impl-mock
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.fastbootd.available=true
+
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
